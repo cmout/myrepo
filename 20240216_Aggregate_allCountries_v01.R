@@ -3,6 +3,7 @@ library(tidyr)
 library(openxlsx)
 library(dplyr)
 
+temp_onzin <- 0.999999999
 rm(list = ls())
 
 dir_output <- file.path("C:/Users/cmout/OneDrive - Goudse/Documenten/AG-AI/Prognosetafel/AG2024/Data/EU21NL22/2023-11 C41/Output")
