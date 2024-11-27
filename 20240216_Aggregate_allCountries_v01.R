@@ -26,5 +26,3 @@ for (datafile in c("Deaths", "Exposures")) {
   filename_out <- file.path(dir_output, paste0(datafile, "_TOT"  , ".xlsx"))
   write.xlsx(list("TOT" = temp2), filename_out, col.Names = TRUE, overwrite = TRUE)
 }
-
-temp_onzin2 <- "0.999_xyz"
